@@ -36,14 +36,14 @@ public class Author {
 	@JsonIgnore
 	List<Book> booksList = new ArrayList<>();
 
-	public void add(Book tempBook) {
+	/*public void add(Book tempBook) {
 		if (booksList == null) {
 			booksList = new ArrayList<>();
 		}
 		// this is bi-directional relationship
 		booksList.add(tempBook);
 		tempBook.setAuthor(this);
-	}
+	}*/
 
 	public Author() {
 		super();
